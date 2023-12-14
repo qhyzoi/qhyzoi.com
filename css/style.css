@@ -1,0 +1,73 @@
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #c2c0c0;
+  height: 100%;
+}
+.image-container img { /*header*/
+width: 100%;
+height: auto;
+}
+
+.guide{ /*导航*/
+  overflow: hidden;
+  background-color: #333;
+}
+.guide A{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 50px;
+}
+.guide a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*背景页面*/
+.starts{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.back{
+    background-color: #f1f1f1; 
+}
+
+/*学习板块*/
+    li{list-style-type:none;}
+    .list{ /*目录*/
+      overflow: hidden;
+      background-color: #e4e8ec;
+      margin-top: 15px; 
+      padding-left: 2%; 
+      padding-right: 2%;
+      line-height: 2em; 
+      font-size: 1em;
+      min-height: 450px;
+    }
+    .contents{ /*文本*/
+      overflow: hidden;
+      background-color: #e4e8ec;
+      margin-left: 2%;
+      margin-top: 15px; 
+      padding-left: 2%;
+      padding-right: 2%;
+      line-height: 1.5em; 
+      min-height: 450px;
+    }
+    .blocks{ /*目录链接*/
+      overflow: hidden;
+      background-color: #e4e8ec;
+    }
+    .blocks A{
+      display: block;
+      color: rgb(120, 115, 115);
+    }
+    .blocks a:hover {
+      background-color: #e4e8ec;
+      color: rgb(255, 0, 0);
+    }
+
